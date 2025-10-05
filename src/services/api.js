@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for API calls. Make sure REACT_APP_API_URL is set in your environment (.env).
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = process.env.REACT_APP_API_URL_Live;
 
 // Create a shared axios instance for the app
 const api = axios.create({ baseURL: API_URL });
