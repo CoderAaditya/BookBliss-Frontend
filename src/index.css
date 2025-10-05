@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Replaced Tailwind with plain CSS + Ant Design. */
+@import './styles/header.css';
+@import './styles/book.css';
+@import './styles/common.css';
+
+/* Add any small global overrides here */
+body {
+	background: #f5f7fa;
+}
